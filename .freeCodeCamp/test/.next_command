@@ -1,0 +1,11 @@
+touch number_guess.sql
+psql -U postgres < number_guess.sql
+mkdir number_guessing_game
+git init
+git status
+git checkout -b main
+git checkout main
+git branch
+touch number_guess.sh
+chmod +x number_guess.sh
+git add .

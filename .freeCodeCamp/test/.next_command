@@ -9,3 +9,25 @@ git branch
 touch number_guess.sh
 chmod +x number_guess.sh
 git add .
+git commit -m "Initial commit"
+mv number_guess.sh number_guessing_game
+cd number_guessing_game
+git init
+git branch
+git checkout -b main
+git status
+git add .
+git commit -m "Initial commit"
+git status
+git add .
+git commit -m "feat: add psql database query"
+git add .
+git commit -m "feat: add username query"
+git add .
+git commit -m "feat: add random number generation"
+git log --oneline
+git add .
+git commit -m "feat: add guesses logic"
+cd ..
+cd number_guessing_game
+git branch
